@@ -51,7 +51,6 @@ li a {
   50% {
     transform: translateX(0.005px)
   }
-
   100% {
     transform: translateX(initial)
   }
@@ -67,7 +66,7 @@ rect.rouded {
 
 path.rotate {
 
-  animation: Fade 3s infinite
+  animation: Fade 1s infinite
 }
 
 path.rotate2 {

@@ -37,8 +37,8 @@ const Home = () => {
 
       </div>
       </div>
-      <div className='w-80 pt-10 lg:pt-0'>
-        <Devgirl/>
+      <div className='spt-10 lg:pt-0'>
+        <Devgirl className='hover:scale-105 duration-500'/>
 
       </div>
     </section>
