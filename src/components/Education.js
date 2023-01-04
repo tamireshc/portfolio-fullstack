@@ -11,38 +11,41 @@ const Education = () => {
   return (
     <section
       id="education"
-      className="px-10 py-20 lg:px-40 text-center  bg-brow"
+      className="px-10 py-10 md:py-20 lg:px-40 text-center  bg-brow"
     >
-      <img className="mb-8 inline" src={education} alt="titulo skills" />
+      <img className="mb-8 inline " src={education} alt="titulo skills" />
       <div>
-        <div id="graduation-div" className="h-24 my-10 animate__animated ">
-          <div className="flex justify-center items-center ">
+        <div id="graduation-div" className="h-24 md:my-10 animate__animated ">
+          <div className="flex justify-center items-baseline md:items-center ">
             <img src={palete} className="w-5" alt="icone paleta de cor" />
-            <p className="text-white font-play ml-2 text-2xl">
+            <p className="text-white font-play ml-2 md:text-2xl">
               Bachelor of Graphic Design - UEMG
             </p>
           </div>
-          <div className="flex justify-center items-center h-24 mb-4">
+          <div className="flex justify-center items-baseline  md:items-center h-24 mb-4">
             <img src={tube} className="w-5" alt="icone tubo de ensaio" />
-            <p className="text-white font-play ml-2 text-2xl">
+            <p className="text-white font-play ml-2 md:text-2xl">
               Bachelor of Chemistry - UFMG
             </p>
           </div>
         </div>
 
-        <div id="master-div" className="h-24 my-10 hidden animate__animated ">
-          <div className="flex justify-center items-center ">
+        <div
+          id="master-div"
+          className="h-24 md:my-10 hidden animate__animated "
+        >
+          <div className="flex justify-center items-start md:items-center ">
             <img src={educationmaster} className="w-5" alt="icone estudante" />
-            <p className="text-white font-play ml-2 text-2xl">
+            <p className="text-white font-play ml-1 md:text-2xl">
               Master in Technological Education CEFET-MG
             </p>
           </div>
         </div>
 
-        <div id="dev-div" className="h-24 my-10 hidden animate__animated ">
-          <div className="flex justify-center items-center ">
+        <div id="dev-div" className="h-24 md:my-10 hidden animate__animated ">
+          <div className="flex justify-center items-center  md:items-center ">
             <img src={dev} className="w-5" alt="icone paleta de cor" />
-            <p className="text-white font-play ml-2 text-2xl">
+            <p className="text-white font-play ml-2 md:text-2xl">
               Full-Stack development - Trybe
             </p>
           </div>
@@ -53,7 +56,7 @@ const Education = () => {
         <button
           type="button"
           id="graduation"
-          className="border border-light-rose font-play text-light-rose mt-6 py-2 w-40 text-center mr-5
+          className="border border-light-rose font-play text-light-rose  md:mt-6 py-2 w-40 text-center mr-5
           active-button
          "
           onClick={() => changeActiveButton(1)}
@@ -63,7 +66,7 @@ const Education = () => {
         <button
           type="button"
           id="master"
-          className="border border-light-rose font-play text-light-rose mt-6 py-2 w-40 text-center mr-5
+          className="border border-light-rose font-play text-light-rose mt-4 py-2 w-40 text-center mr-5
          "
           onClick={() => changeActiveButton(2)}
         >
@@ -72,7 +75,7 @@ const Education = () => {
         <button
           type="button"
           id="dev"
-          className="border border-light-rose font-lato text-light-rose mt-6 py-2 w-40 text-center mr-5
+          className="border border-light-rose font-lato text-light-rose mt-4 py-2 w-40 text-center mr-5
          "
           onClick={() => changeActiveButton(3)}
         >

@@ -9,8 +9,8 @@ import blog from "../images/blog.png";
 
 const Projects = () => {
   return (
-    <section id="projects" className=" px-10 py-20 lg:px-40">
-      <div className="flex justify-center mb-10">
+    <section id="projects" className=" px-10 py-10 md:py-20 lg:px-40">
+      <div className="flex justify-center mb-4 md:mb-10">
         <img className="w-48" src={projects} alt="titulo projects" />
       </div>
 
@@ -27,12 +27,12 @@ const Projects = () => {
           <div className="text-center">
             <a href="https://trybetunes-beta.vercel.app/" target="blank">
               <button className="border border-dark-rose font-lato text-dark-rose mt-6 mr-2 py-2 w-28 text-center hover:scale-105 duration-500">
-                GitHub
+                Deploy
               </button>
             </a>
             <a href="https://github.com/tamireshc/trybetunes" target="blank">
               <button className="border border-dark-rose font-lato text-dark-rose mt-6 mr-2 py-2 w-28 text-center hover:scale-105 duration-500">
-                Deploy
+                GitHub
               </button>
             </a>
           </div>
@@ -50,12 +50,12 @@ const Projects = () => {
           <div className="text-center">
             <a href="https://wallet-zeta.vercel.app/" target="blank">
               <button className="border border-dark-rose font-lato text-dark-rose mt-6 mr-2 py-2 w-28 text-center hover:scale-105 duration-500">
-                GitHub
+                Deploy
               </button>
             </a>
             <a href="https://github.com/tamireshc/wallet" target="blank">
               <button className="border border-dark-rose font-lato text-dark-rose mt-6 mr-2 py-2 w-28 text-center hover:scale-105 duration-500">
-                Deploy
+                GitHub
               </button>
             </a>
           </div>
@@ -73,12 +73,12 @@ const Projects = () => {
           <div className="text-center">
             <a href="https://tryunfo-seven.vercel.app/" target="blank">
               <button className="border border-dark-rose font-lato text-dark-rose mt-6 mr-2 py-2 w-28 text-center hover:scale-105 duration-500">
-                GitHub
+                Deploy
               </button>
             </a>
             <a href="https://github.com/tamireshc/tryunfo" target="blank">
               <button className="border border-dark-rose font-lato text-dark-rose mt-6 mr-2 py-2 w-28 text-center hover:scale-105 duration-500">
-                Deploy
+                GitHub
               </button>
             </a>
           </div>

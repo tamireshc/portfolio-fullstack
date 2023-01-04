@@ -7,7 +7,10 @@ import Typewriter from "typewriter-effect";
 
 const Home = () => {
   return (
-    <section id="home" className="flex flex-wrap justify-center p-36">
+    <section
+      id="home"
+      className="flex flex-wrap justify-center px-32 pt-32 pb-12"
+    >
       <div className="max-w-3xl mr-0 md:mr-5 lg:mr-10 xl:mr-44 ">
         <p className="text-bonina text-sm text-right mr-2 xl:mr-0">
           Hi! My name is{" "}
@@ -30,7 +33,7 @@ const Home = () => {
         <div className="flex justify-start mt-4">
           <a href="https://github.com/tamireshc" target="blank">
             <img
-              className="p-2 hover:scale-110 duration-500 cursor-pointer"
+              className="py-2 px-1 hover:scale-110 duration-500 cursor-pointer"
               src={github}
               alt="logo github"
             />
@@ -56,8 +59,8 @@ const Home = () => {
           </a>
         </div>
       </div>
-      <div className="spt-10 lg:pt-0">
-        <Devgirl className="hover:scale-105 duration-500" />
+      <div className="lg:pt-0">
+        <Devgirl className="hover:scale-105 duration-500 w-96" />
       </div>
     </section>
   );
