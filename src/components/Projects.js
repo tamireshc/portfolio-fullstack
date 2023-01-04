@@ -15,7 +15,7 @@ const Projects = () => {
       </div>
 
       <div className="flex flex-wrap justify-center items-center">
-        <div className="mr-8 mt-4">
+        <div className="md:mr-8 mt-4">
           <p className="font-lato text-brow my-4 text-center font-bold text-lg">
             Trybetunes
           </p>
@@ -38,7 +38,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="mr-8 mt-4">
+        <div className="md:mr-8 mt-4">
           <p className="font-lato text-brow my-4 text-center font-bold text-lg">
             Wallet
           </p>
@@ -61,7 +61,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="mr-8 mt-4">
+        <div className="md:mr-8 mt-4">
           <p className="font-lato text-brow my-4 text-center font-bold text-lg">
             Tryunfo
           </p>
@@ -84,7 +84,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="mr-8 mt-4">
+        <div className="md:mr-8 mt-4">
           <p className="font-lato text-brow my-4 text-center font-bold text-lg">
             TFC
           </p>
@@ -105,7 +105,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="mr-8 mt-4">
+        <div className="md:mr-8 mt-4">
           <p className="font-lato text-brow my-4 text-center font-bold text-lg">
             Car Shop
           </p>
@@ -126,7 +126,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="mr-8 mt-4">
+        <div className="md:mr-8 mt-4">
           <p className="font-lato text-brow my-4 text-center font-bold text-lg">
             Blog-API
           </p>

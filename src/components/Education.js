@@ -22,7 +22,7 @@ const Education = () => {
               Bachelor of Graphic Design - UEMG
             </p>
           </div>
-          <div className="flex justify-center items-center h-24">
+          <div className="flex justify-center items-center h-24 mb-4">
             <img src={tube} className="w-5" alt="icone tubo de ensaio" />
             <p className="text-white font-play ml-2 text-2xl">
               Bachelor of Chemistry - UFMG
