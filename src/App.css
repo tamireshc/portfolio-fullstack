@@ -78,3 +78,16 @@ path.rotate2 {
 
   animation: Fade2 1s infinite
 }
+
+.square-detail:before {
+  content: "";
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border: 3px solid #DEC8CB;
+  margin-right: 10px;
+}
+
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

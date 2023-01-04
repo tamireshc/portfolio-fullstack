@@ -17,13 +17,13 @@ const About = () => {
       </div>
       <div className="max-w-3xl text-light-rose text-xl mb-4">
         <img className="mb-8" src={about} alt="foto da tamires sousa" />
-        <p>
+        <p className="square-detail ml-4">
           I started my academic studies in chemistry. During this journey I
           developed research in Physical Chemistry with emphasis on
           electrochemistry and electrochromic materials
         </p>
         <br></br>
-        <p>
+        <p className="square-detail ml-4">
           After graduating, I continued to expand my knowledge and started
           pursuing a career in technology. I took several courses about
           ​​programming for understand how it worked and if I really wanted this
