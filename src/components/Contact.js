@@ -43,7 +43,7 @@ const Contact = () => {
         action="https://getform.io/f/45efa685-28be-433f-b3ef-6a8194ffb168"
         className="flex flex-col itens-center lg:w-2/5"
       >
-        <label htmlFor="name" className="text-lato text-light-rose mb-2">
+        <label htmlFor="name" className="font-lato text-light-rose mb-2">
           Name
         </label>
         <input
@@ -54,7 +54,7 @@ const Contact = () => {
           value={name}
           onChange={({ target }) => setName(target.value)}
         />
-        <label htmlFor="email" className="text-lato text-light-rose my-2">
+        <label htmlFor="email" className="font-lato text-light-rose my-2">
           Email
         </label>
         <input
@@ -65,7 +65,7 @@ const Contact = () => {
           value={email}
           onChange={({ target }) => setEmail(target.value)}
         />
-        <label htmlFor="email" className="text-lato text-light-rose my-2">
+        <label htmlFor="email" className="font-lato text-light-rose my-2">
           Message
         </label>
         <textarea
@@ -80,7 +80,7 @@ const Contact = () => {
           <button
             type="submit"
             disabled={disabled}
-            className="border border-light-rose text-lato text-light-rose mt-6 py-2 w-40 text-center disabled:cursor-not-allowed disabled:opacity-40"
+            className="border border-light-rose font-lato text-light-rose mt-6 py-2 w-40 text-center disabled:cursor-not-allowed disabled:opacity-40"
           >
             Send Message
           </button>
