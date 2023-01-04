@@ -29,19 +29,30 @@ const Home = () => {
         </p>
         <div className="flex justify-start mt-4">
           <a href="https://github.com/tamireshc" target="blank">
-            <img className="p-2" src={github} alt="logo github" />
+            <img
+              className="p-2 hover:scale-110 duration-500 cursor-pointer"
+              src={github}
+              alt="logo github"
+            />
           </a>
 
           <a href="https://linkedin.com/in/tamires-s" target="blank">
             <img
-              className="w-12 p-2"
+              className="w-12 p-2 hover:scale-110 duration-500 cursor-pointer"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
               alt="logo linkedin"
             />
           </a>
 
-          <a href="https://github.com/tamireshc" target="blank">
-            <img className="w-12 p-2" src={cv} alt="logo linkedin" />
+          <a
+            href="https://drive.google.com/file/d/1R7z5lWaNraROf6j3fAKJkYj1ruoLLg9X/view?usp=sharing"
+            target="blank"
+          >
+            <img
+              className="w-12 p-2 hover:scale-110 duration-500 cursor-pointer"
+              src={cv}
+              alt="logo curriculo"
+            />
           </a>
         </div>
       </div>

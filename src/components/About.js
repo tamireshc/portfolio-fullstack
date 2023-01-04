@@ -15,7 +15,7 @@ const About = () => {
           alt="foto da tamires sousa"
         />
       </div>
-      <div className="max-w-3xl text-light-rose text-xl mb-4">
+      <div className="max-w-3xl text-light-rose text-sm mb-4">
         <img className="mb-8" src={about} alt="foto da tamires sousa" />
         <p className="square-detail ml-4">
           I started my academic studies in chemistry. During this journey I

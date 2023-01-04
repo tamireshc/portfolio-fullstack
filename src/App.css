@@ -61,13 +61,28 @@ li a {
   }
 }
 
+@keyframes pulsar {
+  0% {
+    transform: scale(0.95);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.05);
+  }
+
+}
+
 rect.rouded {
   animation: Fade2 1s infinite
 }
 
-/* rect.rouded2{
-      animation: Fade3 1s  infinite
-    } */
+.pulse {
+  animation: pulsar ease-in-out 1s infinite
+}
 
 path.rotate {
 
