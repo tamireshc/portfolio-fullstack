@@ -55,8 +55,13 @@ const Header = () => {
               Contact
             </a>
           </div>
-          <a href="javascript:void(0)" className="icon" alt="menu hamburguer" onClick={showMenuHamburguer}>
-            <i className="fa fa-bars"></i>
+          <a
+            href="javascript:void(0)"
+            className="icon"
+            alt="menu hamburguer"
+            onClick={showMenuHamburguer}
+          >
+            <i className="fa fa-bars fa-lg"></i>
           </a>
         </div>
       </div>
