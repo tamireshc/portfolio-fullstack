@@ -9,7 +9,7 @@ import blog from "../images/blog.png";
 
 const Projects = () => {
   return (
-    <section id="projects" className=" px-10 py-10 md:py-20 lg:px-40 js-scroll">
+    <section id="projects" className=" px-10 py-20 lg:px-40 js-scroll">
       <div className="flex justify-center mb-4 md:mb-10">
         <img className="w-48" src={projects} alt="titulo projects" />
       </div>

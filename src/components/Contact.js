@@ -32,7 +32,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="lg:flex lg:py-24 py-10 px-20 md:p-20 flex-wrap bg-brow justify-center items-center js-scroll"
+      className="lg:flex py-24  px-20 md:p-20 flex-wrap bg-brow justify-center items-center js-scroll"
     >
       <div className="mr-32 mb-10 lg:mb-0">
         <img src={logoContato} alt="logo contato" />

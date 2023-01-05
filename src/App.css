@@ -1,3 +1,5 @@
+/* Geral */
+
 html {
   scroll-behavior: smooth;
 }
@@ -17,6 +19,8 @@ li a {
   list-style: none;
   text-decoration: none;
 }
+
+/* animations */
 
 @keyframes Fade {
   0% {
@@ -76,6 +80,18 @@ li a {
 
 }
 
+@keyframes pulse {
+  10% {
+    transform: scale(1.1)
+  }
+}
+
+@keyframes pulsecolor {
+  10% {
+    background: #dd0000
+  }
+}
+
 rect.rouded {
   animation: Fade2 1s infinite
 }
@@ -93,6 +109,8 @@ path.rotate2 {
 
   animation: Fade2 1s infinite
 }
+
+/* details */
 
 .square-detail:before {
   content: "";
@@ -118,58 +136,7 @@ path.rotate2 {
   color: red
 }
 
-#wrapper {
-  position: absolute;
-  margin-left: 50px;
-  margin-top: 50px;
-  animation: pulse 1s infinite;
-}
-
-
-#pulsingheart {
-  position: relative;
-  width: 100px;
-  height: 90px;
-}
-
-#pulsingheart:before,
-#pulsingheart:after {
-  position: absolute;
-  content: "";
-  left: 50px;
-  top: 0;
-  width: 50px;
-  height: 80px;
-  background: #aa0000;
-  border-radius: 50px 50px 0 0;
-  transform: rotate(-45deg);
-  transform-origin: 0 100%;
-  animation: pulsecolor 1s infinite;
-}
-
-#pulsingheart:after {
-  left: 0;
-  transform: rotate(45deg);
-  transform-origin: 100% 100%;
-  animation: pulsecolor 1s infinite;
-}
-
-@keyframes pulse {
-  10% {
-    transform: scale(1.1)
-  }
-}
-
-@keyframes pulsecolor {
-  10% {
-    background: #dd0000
-  }
-}
-
-/* .hidden {
-  animate__fadeInUp
-  transition: 5s;
-} */
+/* animascroll */
 
 .js-scroll {
   opacity: 0;
@@ -181,3 +148,76 @@ path.rotate2 {
   transition: 0.3s;
   transform: translate3d(0, 0, 0);
 }
+
+
+
+/* menu hamburguer */
+
+.mobile-container{
+  display: none;
+}
+
+.nav-bar{
+  display: block;
+  transition: 1s;
+}
+
+@media screen and (max-width: 768px) {
+
+  .nav-bar{
+    display: none;
+  }
+
+  .mobile-container{
+    display:block
+  }
+
+.mobile-container {
+  text-align: center;
+  width: 150px;
+  margin-top: 375px;
+  background-color: #57534e;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  transition: 1s;
+}
+
+#myLinks {
+  display: block;
+  transition: 1s; 
+}
+
+.topnav {
+  overflow: hidden; 
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 30px;
+  text-decoration: none;
+  display: block;
+}
+
+ a.icon {
+  display: block;
+  position: fixed;
+  right: 25px;
+  top: 8px;
+}
+
+.topnav a.iconhover:hover {
+  background-color: #DEC8CB;
+  color: black;
+  transition: 0.5s;
+
+}
+}
+
+/* .active {
+  background-color: #04AA6D;
+  color: white;
+} */

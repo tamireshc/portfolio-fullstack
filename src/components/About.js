@@ -8,11 +8,11 @@ const About = () => {
   return (
     <section
       id="about"
-      className="lg:flex lg:py-24  p-20 flex-wrap bg-brow justify-center lg:items-center js-scroll"
+      className="lg:flex py-24  p-20 flex-wrap bg-brow justify-center lg:items-center js-scroll"
     >
-      <div>
+      <div className="flex justify-center">
         <img
-          className="mr-24 mb-10 lg:mb-0"
+          className="lg:mr-24 mb-10 lg:mb-2"
           src={photoAbout}
           alt="foto da tamires sousa"
         />

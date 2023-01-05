@@ -3,7 +3,7 @@ import skills from "../images/skills.svg";
 
 const Skills = () => {
   return (
-    <section id="skills" className=" px-10 py-10 md:py-20 lg:px-40 text-center js-scroll">
+    <section id="skills" className=" px-10 py-20 lg:px-40 text-center js-scroll">
       <img className="mb-8 inline" src={skills} alt="titulo skills" />
 
       <div className="flex flex-wrap justify-center">
