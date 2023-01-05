@@ -170,3 +170,14 @@ path.rotate2 {
   animate__fadeInUp
   transition: 5s;
 } */
+
+.js-scroll {
+  opacity: 0;
+  transform: translate3d(-30px, 0, 0);
+}
+
+.js-scroll.ativo {
+  opacity: 1;
+  transition: 0.3s;
+  transform: translate3d(0, 0, 0);
+}

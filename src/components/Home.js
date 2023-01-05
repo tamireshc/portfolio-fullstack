@@ -4,12 +4,18 @@ import github from "../images/github.png";
 import cv from "../images/iconcv.png";
 import "animate.css";
 import Typewriter from "typewriter-effect";
+import animaScroll from "../utils/animaScroll";
 
 const Home = () => {
+
+  React.useEffect(() => {
+    animaScroll()
+  }, [])
+
   return (
     <section
       id="home"
-      className="flex flex-wrap justify-center px-32 pt-32 pb-12"
+      className="flex flex-wrap justify-center px-32 pt-32 pb-12 js-scroll"
     >
       <div className="max-w-3xl mr-0 md:mr-5 lg:mr-10 xl:mr-44 ">
         <p className="text-bonina text-sm text-right mr-2 xl:mr-0">

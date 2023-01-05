@@ -11,7 +11,7 @@ const Education = () => {
   return (
     <section
       id="education"
-      className="px-10 py-10 md:py-20 lg:px-40 text-center  bg-brow"
+      className="px-10 py-10 md:py-20 lg:px-40 text-center  bg-brow js-scroll"
     >
       <img className="mb-8 inline " src={education} alt="titulo skills" />
       <div>

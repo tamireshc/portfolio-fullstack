@@ -1,12 +1,14 @@
 import React from "react";
 import photoAbout from "../images/photoabout.png";
 import about from "../images/about.svg";
+import animaScroll from "../utils/animaScroll";
 
 const About = () => {
+
   return (
     <section
       id="about"
-      className="lg:flex lg:py-24  p-20 flex-wrap bg-brow justify-center lg:items-center"
+      className="lg:flex lg:py-24  p-20 flex-wrap bg-brow justify-center lg:items-center js-scroll"
     >
       <div>
         <img
@@ -26,7 +28,7 @@ const About = () => {
         <p className="square-detail ml-4">
           After graduating, I continued to expand my knowledge and started
           pursuing a career in technology. I took several courses about
-          ​​programming for understand how it worked and if I really wanted this
+          programming for understand how it worked and if I really wanted this
           career. During that first contact, I identified myself with the area,
           and I looked for a way that I could become professional. Then I
           discovered Trybe. A technology school that offers complete training

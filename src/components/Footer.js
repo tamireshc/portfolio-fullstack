@@ -3,7 +3,7 @@ import heart from "../images/heart.svg";
 
 const Footer = () => {
   return (
-    <footer className=" bg-stone-600 p-5 text-white font-lato text-sm">
+    <footer className=" bg-stone-600 p-5 text-white font-lato text-sm ">
       <div className="flex items-center justify-center">
         <p className=" mr-1 md:mr-2">
           © 2023 - Designed with React.js, TailwindCSS, Getform.io and
