@@ -1,26 +1,8 @@
 import React from "react";
 import logoTS from "../images/logoTS.svg";
+import { showMenuHamburguer } from "../utils/showMenuHamburguer";
 
 const Header = () => {
-
-  function myFunction() {
-    var linksNav = document.getElementById("myLinks");
-    var iconHamburguer = document.getElementsByClassName("icon")[0]
-    if (linksNav.style.display === "block") {
-      linksNav.style.display = "none";
-      iconHamburguer.style.transform = "rotate(180deg)";
-      iconHamburguer.style.transition = "1s"
-
-
-    } else {
-      linksNav.style.display = "block";
-      iconHamburguer.style.transform = "rotate(90deg)";
-      iconHamburguer.style.transition = "1s"
-
-
-    }
-
-  }
   return (
     <header className=" flex items-center justify-between bg-stone-600 p-3 fixed w-full z-10 top-0 h-16">
       <img
@@ -51,7 +33,7 @@ const Header = () => {
         </ul>
       </nav>
 
-      <div className="mobile-container ">
+      <div className="mobile-container">
         <div className="topnav">
           <div id="myLinks">
             <a href="#home" className="iconhover">
@@ -73,14 +55,10 @@ const Header = () => {
               Contact
             </a>
           </div>
-          <a href="javascript:void(0)" className="icon" alt="menu hamburguer" onClick={myFunction}>
+          <a href="javascript:void(0)" className="icon" alt="menu hamburguer" onClick={showMenuHamburguer}>
             <i className="fa fa-bars"></i>
           </a>
         </div>
-
-
-
-
       </div>
     </header>
   );
