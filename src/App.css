@@ -148,64 +148,64 @@ path.rotate2 {
 
 /* menu hamburguer */
 
-.mobile-container{
+.mobile-container {
   display: none;
 }
 
-.nav-bar{
+.nav-bar {
   display: block;
   transition: 1s;
 }
 
 @media screen and (max-width: 768px) {
-  .nav-bar{
+  .nav-bar {
     display: none;
   }
 
-  .mobile-container{
-    display:block
+  .mobile-container {
+    display: block
   }
 
-.mobile-container {
-  text-align: center;
-  width: 150px;
-  margin-top: 375px;
-  background-color: #57534e;
-  color: white;
-  font-family: 'Playfair Display', serif;
-  transition: 1s;
-}
+  .mobile-container {
+    text-align: center;
+    width: 150px;
+    margin-top: 375px;
+    background-color: #57534e;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    transition: 1s;
+  }
 
-#myLinks {
-  display: block;
-  transition: 1s; 
-}
+  #myLinks {
+    display: block;
+    transition: 1s;
+  }
 
-.topnav {
-  overflow: hidden; 
-}
+  .topnav {
+    overflow: hidden;
+  }
 
-.topnav #myLinks {
-  display: none;
-}
+  .topnav #myLinks {
+    display: none;
+  }
 
-.topnav a {
-  color: white;
-  padding: 14px 30px;
-  text-decoration: none;
-  display: block;
-}
+  .topnav a {
+    color: white;
+    padding: 14px 30px;
+    text-decoration: none;
+    display: block;
+  }
 
- a.icon {
-  display: block;
-  position: fixed;
-  right: 25px;
-  top: 8px;
-}
+  a.icon {
+    display: block;
+    position: fixed;
+    right: 25px;
+    top: 6px;
+  }
 
-.topnav a.iconhover:hover {
-  background-color: #DEC8CB;
-  color: black;
-  transition: 0.5s;
-}
+  .topnav a.iconhover:hover {
+    background-color: #DEC8CB;
+    color: black;
+    transition: 0.5s;
+  }
 }
