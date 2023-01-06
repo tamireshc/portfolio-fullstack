@@ -26,7 +26,7 @@ const About = () => {
         </p>
         <br></br>
         <p className="square-detail ml-4">
-          After graduating, I continued to expand my knowledge and started
+          I continued to expand my knowledge and started
           pursuing a career in technology. I took several courses about
           programming for understand how it worked and if I really wanted this
           career. During that first contact, I identified myself with the area,

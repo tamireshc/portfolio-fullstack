@@ -61,7 +61,7 @@ const Education = () => {
          "
           onClick={() => changeActiveButton(1)}
         >
-          Graduation
+          Degree
         </button>
         <button
           type="button"
