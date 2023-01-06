@@ -1,5 +1,12 @@
-# Meu Portifólio Full-Stack
+# Portifólio Full-Stack
 
+Página desenvolvida para ser meu portifólio de desenvolvedora web full-stack.<br>
+
+ #### O Projeto foi desenvolvido utilizando ReactJS e TailwindCSS :runner:</br> 
+
+:mag_right: Para visualizar o deploy clique aqui -> _[Deploy](https://portfolio-fullstack-tamireshc.vercel.app/)_
+
+### Imagens do projeto: :information_desk_person:</br>
 
 <img width="846" alt="Captura de Tela 2023-01-04 às 19 32 28" src="https://user-images.githubusercontent.com/65035109/210662598-f69450f6-72b3-4dc7-9c4b-6d03326e9af4.png">
 <img width="843" alt="Captura de Tela 2023-01-04 às 19 33 38" src="https://user-images.githubusercontent.com/65035109/210662752-f7f60a60-cc36-4712-8bbc-95f5e58bf13f.png">
