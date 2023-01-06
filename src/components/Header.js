@@ -5,11 +5,13 @@ import { showMenuHamburguer } from "../utils/showMenuHamburguer";
 const Header = () => {
   return (
     <header className=" flex items-center justify-between bg-stone-600 p-3 fixed w-full z-10 top-0 h-16">
-      <img
-        src={logoTS}
-        alt="logo site"
-        className="ml-10 hover:scale-105 duration-500"
-      />
+      <a href="#home">
+        <img
+          src={logoTS}
+          alt="logo site"
+          className="ml-10 hover:scale-105 duration-500"
+        />
+      </a>
       <nav className="nav-bar">
         <ul className="flex  font-play text-white mr-10">
           <li className="p-3 hover:text-light-rose  hover:scale-105 transition duration-1000 border-b-2 border-transparent hover:border-light-rose active:text-light-rose">
