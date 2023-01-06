@@ -75,7 +75,7 @@ const Education = () => {
         <button
           type="button"
           id="dev"
-          className="border border-light-rose font-lato text-light-rose mt-4 py-2 w-40 text-center mr-5
+          className="border border-light-rose font-play text-light-rose mt-4 py-2 w-40 text-center mr-5
          "
           onClick={() => changeActiveButton(3)}
         >
