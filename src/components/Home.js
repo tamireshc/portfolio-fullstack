@@ -54,7 +54,7 @@ const Home = () => {
           </a>
 
           <a
-            href="https://drive.google.com/file/d/1R7z5lWaNraROf6j3fAKJkYj1ruoLLg9X/view?usp=sharing"
+            href="https://drive.google.com/file/d/1-ib9tQ_JHwBjpnioheSi_NJ3imqMhSvc/view?usp=sharing"
             target="blank"
           >
             <img
