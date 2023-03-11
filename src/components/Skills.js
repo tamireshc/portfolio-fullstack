@@ -3,7 +3,10 @@ import skills from "../images/skills.svg";
 
 const Skills = () => {
   return (
-    <section id="skills" className=" px-10 py-20 lg:px-40 text-center js-scroll">
+    <section
+      id="skills"
+      className=" px-10 py-20 lg:px-40 text-center js-scroll"
+    >
       <img className="mb-8 inline" src={skills} alt="titulo skills" />
 
       <div className="flex flex-wrap justify-center">
@@ -91,6 +94,16 @@ const Skills = () => {
           className="w-28 shadow p-5 rounded m-2 hover:scale-105 duration-500"
           alt="icone docker"
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg"
+        />
+        <img
+          className="w-28 shadow p-4 rounded m-2 hover:scale-105 duration-500"
+          alt="icone C#"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+        />
+        <img
+          className="w-28 shadow p-4 rounded m-2 hover:scale-105 duration-500"
+          alt="icone dotnet"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original-wordmark.svg"
         />
       </div>
     </section>
