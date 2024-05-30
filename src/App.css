@@ -129,6 +129,11 @@ path.rotate2 {
   transition: 0.5s
 }
 
+.project-image{
+  height: 300px;
+  width: 450px;
+}
+
 .pulse {
   color: red
 }
