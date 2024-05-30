@@ -28,10 +28,10 @@ const About = () => {
         <p className="square-detail ml-4">
           After graduating in chemistry, I continued looking to expand my knowledge and started studying technology. I took several programming courses with the aim of better understanding how it worked and whether I really wanted this career.
         </p>
+        <br></br>
         <p className="square-detail ml-4">
           During this first contact, I identified with the area and looked for a way in which I could become a professional. I completed Full-Stack development training at Trybe and am currently studying the MBA in Software Engineering at USP.
         </p>
-        <br></br>
       </div>
     </section>
   );
