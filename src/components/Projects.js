@@ -3,7 +3,7 @@ import projects from "../images/projects.svg";
 import trybetunes from "../images/trybetunes.png";
 import tfc from "../images/tfc.png";
 import geopet from "../images/geo.png";
-import tryitter from "../images/trywitter às 17.04.33.png";
+import tryitter from "../images/trywitter.png";
 import drone from "../images/drone-feeder.png";
 
 
